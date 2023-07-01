@@ -62,6 +62,7 @@ function classifyVideo() {
   classifier.classify(flippedVideo, gotResult);
 }
 
+
 // When we get a result
 function gotResult(error, results) {
   // If there is an error
